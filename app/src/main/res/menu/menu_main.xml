@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.chc.MainActivity">
+    <item
+        android:id="@+id/action_add_player"
+        android:onClick="addPlayer"
+        android:title="Add"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_get_count_eagles"
+        android:orderInCategory="1"
+        android:title="@string/view_eagles"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_get_count_cowboys"
+        android:orderInCategory="2"
+        android:title="@string/view_cowboys"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_get_count_steelers"
+        android:orderInCategory="3"
+        android:title="@string/view_steelers"
+        app:showAsAction="never" />
+</menu>

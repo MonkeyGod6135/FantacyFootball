@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Fantacy Football</string>
+    <string name="action_add_student">Add Student</string>
+    <string name="view_steelers">View Steelers</string>
+    <string name="view_cowboys">View Cowboys</string>
+    <string name="view_eagles">View Eagles</string>
+    <string-array name="position">
+        <item></item>
+        <item></item>
+        <item>QB</item>
+        <item>WR</item>
+        <item>LM</item>
+    </string-array>
+    <string-array name="team">
+        <item></item>
+        <item>EAGLES</item>
+        <item>COWBOYS</item>
+        <item>STEELERS</item>
+    </string-array>
+</resources>
